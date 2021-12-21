@@ -14,6 +14,8 @@
 		8B27368827707C1E005455B1 /* URLSession-Decodeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B27368727707C1E005455B1 /* URLSession-Decodeable.swift */; };
 		8B27368A27707C47005455B1 /* NASA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B27368927707C47005455B1 /* NASA.swift */; };
 		8B27368C2770BB50005455B1 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B27368B2770BB50005455B1 /* DetailsView.swift */; };
+		8B27368E27715F92005455B1 /* ContentRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B27368D27715F92005455B1 /* ContentRowView.swift */; };
+		8B27369027716062005455B1 /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B27368F27716062005455B1 /* ContentView-ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		8B27368727707C1E005455B1 /* URLSession-Decodeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession-Decodeable.swift"; sourceTree = "<group>"; };
 		8B27368927707C47005455B1 /* NASA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASA.swift; sourceTree = "<group>"; };
 		8B27368B2770BB50005455B1 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		8B27368D27715F92005455B1 /* ContentRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRowView.swift; sourceTree = "<group>"; };
+		8B27368F27716062005455B1 /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 			children = (
 				8B27367927707BD5005455B1 /* NASAProjectApp.swift */,
 				8B27367B27707BD5005455B1 /* ContentView.swift */,
+				8B27368F27716062005455B1 /* ContentView-ViewModel.swift */,
+				8B27368D27715F92005455B1 /* ContentRowView.swift */,
 				8B27368B2770BB50005455B1 /* DetailsView.swift */,
 				8B27368727707C1E005455B1 /* URLSession-Decodeable.swift */,
 				8B27368927707C47005455B1 /* NASA.swift */,
@@ -147,9 +153,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B27368A27707C47005455B1 /* NASA.swift in Sources */,
+				8B27368E27715F92005455B1 /* ContentRowView.swift in Sources */,
 				8B27368C2770BB50005455B1 /* DetailsView.swift in Sources */,
 				8B27367C27707BD5005455B1 /* ContentView.swift in Sources */,
 				8B27368827707C1E005455B1 /* URLSession-Decodeable.swift in Sources */,
+				8B27369027716062005455B1 /* ContentView-ViewModel.swift in Sources */,
 				8B27367A27707BD5005455B1 /* NASAProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
